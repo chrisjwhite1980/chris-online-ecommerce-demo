@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 body {
@@ -181,4 +181,22 @@ img.large {
 .alert-danger {
   color: #a02020;
   background-color: #ffe0e0;
+}
+
+/* filter */
+
+.filter {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter input {
+  padding: 1rem;
+  margin-left: 5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem black solid;
+  font-size: 1.6rem;
 }
