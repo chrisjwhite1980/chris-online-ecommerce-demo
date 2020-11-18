@@ -47,7 +47,6 @@ export default function HomeScreen(props) {
             .map((product) => (
               <Product key={product._id} product={product}></Product>
             ))}
-          ,
         </div>
       )}
     </div>

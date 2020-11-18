@@ -13,6 +13,13 @@ export default function Product(props) {
           <h2>{product.name}</h2>
         </Link>
         <div className='price'>£{product.price}</div>
+        <div className='price'>
+          {product.countInStock > 0 ? (
+            <span className='success'>{product.countInStock} In Stock</span>
+          ) : (
+            <span className='danger'>Unavailable</span>
+          )}
+        </div>
       </div>
     </div>
   )

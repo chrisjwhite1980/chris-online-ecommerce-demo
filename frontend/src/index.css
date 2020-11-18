@@ -139,10 +139,11 @@ img.small {
   width: 100%;
 }
 img.medium {
-  max-width: 29rem;
+  max-width: 15rem;
   width: 100%;
 }
 img.large {
+  max-width: 39rem;
   width: 100%;
 }
 

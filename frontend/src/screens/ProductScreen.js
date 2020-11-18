@@ -40,7 +40,7 @@ export default function ProductScreen(props) {
                 <li>
                   <h1>{product.name}</h1>
                 </li>
-                <li></li>
+                <li>Brand:{product.brand}</li>
                 <li>Price : £{product.price}</li>
                 <li>
                   Description:
